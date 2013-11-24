@@ -55,7 +55,7 @@ Production can override some settings to comply with the deployment target
 	# Overrides some parameters
 	database.jdbc.user = app_user_prod
 
-An application deployer can avoid storing sensible information by having its own configuration in a file instead of embedded in the application. Deployer will run the application with `-Djava.properties.file=dev.properties`
+An application deployer can avoid storing sensible information by having its own configuration in a file instead of embedded in the application. Deployer will run the application with `-Djava.properties.file=prod_secure.properties`
 
 `prod_secure.properties` only managed by application deployer
 
